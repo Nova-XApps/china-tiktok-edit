@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>What's Up Beijing</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Intro Screen -->
+
+    <section id="intro" class="scene active">
+
+        <img
+            src="assets/leader.jpg"
+            id="leaderImage"
+            class="background"
+        >
+
+        <div class="overlay"></div>
+
+        <div class="title">
+
+            <h1>Most Famous</h1>
+            <h2>World Leaders</h2>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Xi Reveal -->
+
+    <section id="xi" class="scene">
+
+        <img
+            src="assets/xi.jpg"
+            class="background"
+        >
+
+        <div class="overlay red"></div>
+
+        <div class="title reveal">
+
+            <h1>WHAT'S UP</h1>
+            <h2>BEIJING 🇨🇳</h2>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- City Showcase -->
+
+    <section id="cities" class="scene">
+
+        <img
+            id="cityImage"
+            class="background"
+            src="assets/beijing.jpg"
+        >
+
+        <div class="overlay dark"></div>
+
+        <div id="cityName">
+
+            BEIJING
+
+        </div>
+
+    </section>
+
+
+
+    <!-- Start Screen -->
+
+    <div id="startScreen">
+
+        <h1>WHAT'S UP BEIJING</h1>
+
+        <p>Press Start</p>
+
+        <button id="startButton">
+
+            ▶ START
+
+        </button>
+
+    </div>
+
+
+
+    <!-- Flash -->
+
+    <div id="flash"></div>
+
+
+
+    <!-- Music -->
+
+    <audio
+        id="music"
+        src="assets/music.mp3"
+    ></audio>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
