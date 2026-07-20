@@ -1,61 +1,159 @@
-<!-- Intro -->
-<section id="intro" class="scene active">
+<!DOCTYPE html>
+<html lang="en">
 
-    <img
-        id="leaderImage"
-        src="assets/IMG_1545.jpeg"
-        class="background"
-    >
+<head>
 
-    <div class="overlay"></div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <div class="title">
-        <h1>Most Famous</h1>
-        <h2>World Leaders</h2>
-    </div>
+    <title>What's Up Beijing</title>
 
-</section>
+    <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
-<!-- Xi Reveal -->
+</head>
 
-<section id="xi" class="scene">
+<body>
 
-    <img
-        src="assets/IMG_1543.jpeg"
-        class="background"
-    >
+    <!-- ========================= -->
+    <!-- START SCREEN -->
+    <!-- ========================= -->
 
-    <div class="overlay red"></div>
+    <div id="startScreen">
 
-    <div class="title reveal">
+        <div class="startContent">
 
-        <h1>WHAT'S UP</h1>
-        <h2>BEIJING 🇨🇳</h2>
+            <h1>WHAT'S UP</h1>
 
-    </div>
+            <h2>BEIJING 🇨🇳</h2>
 
-</section>
+            <p>
+                Cinematic China Edit
+            </p>
 
+            <button id="startButton">
 
+                ▶ START
 
-<!-- City Scene -->
+            </button>
 
-<section id="cities" class="scene">
-
-    <img
-        id="cityImage"
-        class="background"
-        src="assets/IMG_1540.jpeg"
-    >
-
-    <div class="overlay dark"></div>
-
-    <div id="cityName">
-
-        GREAT WALL
+        </div>
 
     </div>
 
-</section>
+
+
+    <!-- ========================= -->
+    <!-- FLASH -->
+    <!-- ========================= -->
+
+    <div id="flash"></div>
+
+
+
+    <!-- ========================= -->
+    <!-- INTRO -->
+    <!-- ========================= -->
+
+    <section id="intro" class="scene active">
+
+        <img
+            id="leaderImage"
+            src="assets/IMG_1545.jpeg"
+            class="background"
+            alt="Leader">
+
+        <div class="overlay"></div>
+
+        <div class="title">
+
+            <h1>Most Famous</h1>
+
+            <h2>World Leaders</h2>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- XI REVEAL -->
+    <!-- ========================= -->
+
+    <section id="xi" class="scene">
+
+        <img
+            src="assets/IMG_1543.jpeg"
+            class="background"
+            alt="Xi">
+
+        <div class="overlay red"></div>
+
+        <div class="title reveal">
+
+            <h1>WHAT'S UP</h1>
+
+            <h2>BEIJING 🇨🇳</h2>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- CITY MONTAGE -->
+    <!-- ========================= -->
+
+    <section id="cities" class="scene">
+
+        <img
+            id="cityImage"
+            class="background"
+            src="assets/IMG_1540.jpeg"
+            alt="City">
+
+        <div class="overlay dark"></div>
+
+        <div id="cityName">
+
+            GREAT WALL
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ========================= -->
+    <!-- AUDIO -->
+    <!-- ========================= -->
+
+    <audio
+        id="music"
+        preload="auto">
+
+        <source
+            src="assets/music.mp3"
+            type="audio/mpeg">
+
+        Your browser does not support audio.
+
+    </audio>
+
+
+
+    <!-- ========================= -->
+    <!-- SCRIPT -->
+    <!-- ========================= -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
